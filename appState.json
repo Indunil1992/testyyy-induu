@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4cae08db-c26f-4994-a451-a933ee5111bc": {
+        "id": "4cae08db-c26f-4994-a451-a933ee5111bc",
+        "parent": null,
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "lambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapSoutheast1sinInducheckcalany",
+            "config": {}
+          }
+        ],
+        "testCases": {
+          "e844f878-f2a6-4337-8f3b-ea49b2369e94": {
+            "id": "e844f878-f2a6-4337-8f3b-ea49b2369e94",
+            "name": "Test event",
+            "functionId": "4cae08db-c26f-4994-a451-a933ee5111bc",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "4cae08db-c26f-4994-a451-a933ee5111bc"
+    ],
+    "currentFileId": "4cae08db-c26f-4994-a451-a933ee5111bc",
+    "resources": {
+      "apigapSoutheast1sinInducheckcalany": {
+        "name": "apigapSoutheast1sinInducheckcalany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-1",
+          "apiMode": 0,
+          "apiName": "sin-indu",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "check/cal",
+          "resourcePath": "/check/cal",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testyyy-induu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582875674340
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testyyy-induu",
+      "url": "https://github.com/Indunil1992/testyyy-induu"
+    }
+  }
+}
